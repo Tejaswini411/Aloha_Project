@@ -26,6 +26,25 @@ h3{
 
 }
 
+.screen-reader-text {
+	position: absolute !important;
+	clip: rect(1px, 1px, 1px, 1px);
+	width: 1px;
+	height: 1px;
+	font-size: 1.2em;
+	overflow: hidden;
+}
+
+.screen-reader-text:focus {
+	display: block;
+	clip: auto !important;
+	width: auto;
+	height: auto;
+	z-index: 1000000;
+	top: 5px;
+	left: 5px;
+}
+
 .add_cart{ 
   width: 200px;
   background-color: black;
@@ -570,6 +589,10 @@ footer{
 
 }
 
+.phone {
+    font-size: 30px;
+}
+
 .links a{
   color: white;
 }
@@ -580,6 +603,32 @@ footer{
 
 
 }
+
+#updatesSection {
+    position: relative;
+
+}
+
+#subTitleContainer {
+    background-color: white;
+    position: absolute;
+    text-align: center;
+    width: 7em;
+    left: 32.3%;
+    top: 56.5%;
+    height: 3.1em;
+    border-radius: 26px 36px 0px 0px;
+
+}
+
+#subTitleContainer label{
+    margin: auto;
+    color: black;
+    font-size: 1.4rem;
+
+
+}
+
 .email{ color: white;
         display: inline;
         padding-top: 50px;
