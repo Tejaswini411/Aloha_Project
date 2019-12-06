@@ -1,0 +1,308 @@
+                              /*    TABLET          */
+
+
+@media (max-width: 1240px) and (min-width: 600px) {
+
+
+   header{ line-height: 2; }
+
+
+.logo{ width: 150px; }
+
+
+.cart img {
+    width: 70px; }
+
+button {
+
+    padding: 10px 10px; }
+
+.topnav li{
+    display: inline-block;
+    padding: 0 20px;
+    }
+
+.topnav li a{
+
+    font-size: 18px;
+    }
+
+.wrapper:nth-of-type(1) {
+    
+    height: 600px;
+    }
+
+
+.girl {
+    width: 250px;
+    }
+
+.head_2{
+
+    margin-top: 22px;
+    }    
+
+.head_ing{
+
+    font-size: 45px;
+    }
+
+.head_bold{
+
+    font-size: 45px;
+    }
+
+.txt1{
+ font-size: 20px;
+    }
+
+.txt1 br{ 
+    display: none; }
+
+.txt{
+    padding: 20px;
+    }
+
+.txt br{
+    display: none;
+    }
+
+.card {
+    height: 300px;
+    }
+
+    .add_cart{
+        display: none;
+    }
+
+footer{ padding: 50px 15px; }
+
+footer a, footer li{
+      font-size: 16px;
+      }
+
+
+
+.feed {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 16px 1fr 16px 1fr 16px 1fr 16px 1fr 16px 1fr 16px 1fr 16px 1fr 16px 1fr 16px 1fr 16px 1fr 16px 1fr;
+    grid-template-columns: repeat(12, 1fr);
+    grid-auto-rows: 300px;
+    grid-gap: 12px;
+    margin: 30px 0 30px 0;
+    line-height: 8;
+    }
+
+.card__category{
+    font-size: 28px;
+    margin: 5px;
+    }
+
+
+
+
+.card:nth-child(2),:nth-child(3),:nth-child(4),:nth-child(5) {
+    -ms-grid-column: span 3;
+        grid-column-start: span 3;
+    }
+
+.card:nth-child(1),:nth-child(6) {
+    -ms-grid-column: span 6;
+        grid-column-start: span 6;
+    }
+
+
+}
+
+
+
+                                /*    MOBILE/ SMART-PHONE          */
+
+
+@media (max-width: 450px) {
+
+body{
+    margin: 0 ;
+    }
+
+
+     .topnav { display: none;}
+
+
+    .logo{
+             width :100px;
+             padding-left: 10px;
+
+         }
+
+     .cart img {
+             width: 40px;
+             }
+
+header{  
+    align-items: center;
+    line-height: 0;
+    }
+
+    .topnav_mobile{
+    list-style: none ;
+    font-family:'Raleway';
+    font-weight: 500;
+    font-style: normal;
+    display: flex;
+    border-top: 1px solid grey;
+    padding-top: 10px;
+    margin-top: 0;
+   }
+
+
+.topnav_mobile li{
+    padding: 0 20px;
+    }
+
+.topnav_mobile li a{
+    transition: all 0.3s ease 0s;
+    color: #e2574c;
+    font-size: 12px;
+    }
+
+
+.topnav_mobile li a:hover {
+    color: #b64036;
+    }
+
+.wrapper:nth-of-type(1) {
+    height: 400px;
+    }
+
+.girl{
+    width: 150px;
+}
+
+
+.head_1{
+    font-size: 18px;
+    }
+
+.head_2{
+    font-size: 35px;
+    margin-top: 12px;
+    }
+
+.head_ing{
+
+    font-size: 30px;
+    }
+
+.head_bold{
+    font-size: 30px;
+    }
+
+.txt1{
+ font-size: 12px;
+ }
+
+.signup{
+
+    height: 350px;
+    margin-top:50px;
+    margin-bottom: 10px;
+    }
+
+.txt1 br{
+    display: none;
+    }
+ 
+ .head ,.bold_head{
+
+    font-size: 30px;
+    }
+
+ .txt{
+    font-size: 14px;
+    letter-spacing: 0;
+    }
+
+.txt br{
+    display: none;
+    }
+
+.box{
+    width: 80%;
+    }
+
+.btn{
+width: 100px;
+height: 30px;
+}
+
+input{
+
+    font-size: 12px;
+}
+
+.txt_box {
+    width: 100%;
+    height: 40px;
+  
+    padding: 0 25px;
+    border-radius: 30px;
+    }
+
+.add_cart{
+        display: none;
+    }
+
+footer{ padding: 30px 10px;
+    flex-direction: column;
+   
+    text-align: center;
+    }
+
+footer a, footer li{
+      font-size: 20px;
+      }
+
+footer i{ font-size:  30px;}
+                            
+.social_media{
+
+    width: 50%;
+    display: flex;
+    margin: 0 auto;
+   justify-content: space-between;
+   }
+
+.feed {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 16px 1fr 16px 1fr 16px 1fr 16px 1fr 16px 1fr 16px 1fr 16px 1fr 16px 1fr 16px 1fr 16px 1fr 16px 1fr;
+    grid-template-columns: repeat(12, 1fr);
+    grid-auto-rows: 200px;
+    grid-gap: 8px;
+    margin: 20px 0 20px 0;
+    line-height: 8;
+    }
+
+.card__category{
+    font-size: 20px;
+    }
+
+
+.social_media span{
+    display: none;
+    }
+
+ .card:nth-child(1),:nth-child(6) {
+        -ms-grid-column: span 12;
+            grid-column-start: span 12;
+
+           }
+
+     .card:nth-child(2),:nth-child(3),:nth-child(4),:nth-child(5){
+    -ms-grid-column: span 6;
+        grid-column-start: span 6;
+        }
+
+}
